@@ -73,7 +73,7 @@ backward <- function(nn, k){
         d_l[j] = exp(hl[j])/sum(exp(hl)) - 1
       }
     }
-    return(d_l = d_l)
+    return( d_l = d_l)
   }
   
   # Find the derivative of the last layer (output layer)
